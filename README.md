@@ -19,3 +19,62 @@ It is developed using:
 
 ---
 
+/client → React frontend
+/server → Node.js backend
+/.github → CI/CD pipeline
+
+
+
+---
+
+## 🔐 Security Features
+- Password hashing using bcrypt
+- Input validation (frontend + backend)
+- Protection against:
+  - XSS attacks
+  - Brute-force attacks (rate limiting)
+  - HTTP vulnerabilities (Helmet)
+- CORS configuration
+
+---
+
+## 👥 Team Roles
+- Frontend Developer (React UI)
+- Backend Developer (API & Database)
+- Security Engineer (Authentication & Protection)
+- DevOps Engineer (Deployment & CI/CD)
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+git clone https://github.com/YOUR-USERNAME/secure-payments-portal.git
+
+### 2. Install frontend dependencies
+cd client
+npm install
+npm start
+
+### 3. Install backend dependencies
+cd server
+npm install
+node index.js
+
+---
+
+## 🚀 Future Improvements
+- Add real payment gateway integration
+- Improve UI/UX design
+- Add multi-factor authentication (MFA)
+
+---
+
+## 📹 Demo
+A demonstration video will be included upon submission.
+
+---
+
+## 📜 License
+MIT License 
