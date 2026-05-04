@@ -1,12 +1,8 @@
-/*!
- * mime-db
- * Copyright(c) 2014 Jonathan Ong
- * Copyright(c) 2015-2022 Douglas Christopher Wilson
- * MIT Licensed
- */
+'use strict';
 
-/**
- * Module exports.
- */
+var call = Function.prototype.call;
+var $hasOwn = Object.prototype.hasOwnProperty;
+var bind = require('function-bind');
 
-module.exports = require('./db.json')
+/** @type {import('.')} */
+module.exports = bind.call(call, $hasOwn);
